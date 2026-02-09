@@ -1,0 +1,34 @@
+{
+  "templates": [
+    {
+      "name": "home-page",
+      "urls": ["https://wknd-trendsetters.site"],
+      "description": "Fashion blog homepage with hero, feature cards, article cards, tabs, FAQ accordion, and CTA sections",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": ["header.section"]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            "section.section .flex-horizontal.flex-gap-xxs",
+            "section.section .utility-link-content-block"
+          ]
+        },
+        {
+          "name": "tabs",
+          "instances": [".w-tabs"]
+        },
+        {
+          "name": "accordion",
+          "instances": [".accordion.transparent-accordion"]
+        },
+        {
+          "name": "columns",
+          "instances": ["section.section:last-of-type .grid-layout.desktop-4-column"]
+        }
+      ]
+    }
+  ]
+}
